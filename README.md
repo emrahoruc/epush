@@ -1,2 +1,2 @@
 # epush
-PHP push notification class for Android devices.
+Simple PHP class sending notification to Android devices.
