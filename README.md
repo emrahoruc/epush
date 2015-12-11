@@ -6,7 +6,7 @@ Example:
 
         $epush = new Epush();
         $epush->apiKey('Server Api Key');
-        $epush->devices( array('regIdX', 'regIdY', 'regIdZ') ); // or one device $epush->devices('regIdX');
+        $epush->devices( array('regIdX', 'regIdY', 'regIdZ') ); // or just one device $epush->devices('regIdX');
         
         $epush->title( 'Simple Title' );
         $epush->subTitle( 'Simple Title' );
