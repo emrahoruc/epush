@@ -12,8 +12,8 @@ Example:
         $epush->subTitle( 'Simple Title' );
         $epush->message( 'Simple Message' );
         $epush->tickerText('Simple Ticker Text');
-        $epush->vibrate(TRUE);
-        $epush->sound(TRUE);
+        $epush->vibrate(FALSE);
+        $epush->sound(FALSE);
         
         // Open Debug Mode
         // $epush->debugMode(TRUE);
